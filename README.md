@@ -35,7 +35,7 @@ This package is supported for *Linux* and *macOS*. The package has been tested o
 
 2. **Recommended Step:** (Conda users, Conda version: 4.12.0) Create your environment and activate it:
 	```
-	conda create -n scMustree_env python=3.7
+	conda create -n scMustree_env python=3.9
  	source activate scMustree_env
  	```
  	-Use `conda activate` instead of `source activate`, if required.
