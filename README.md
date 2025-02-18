@@ -29,14 +29,14 @@ This package is supported for *Linux* and *macOS*. The package has been tested o
 ### Installation
 1. **Necessary Step:** Download from Github:
    	```
-	git clone https://github.com/xuyp-csu/scCAD.git
-	cd scCAD
+	git clone https://github.com/xuyp-csu/scMustree.git
+	cd scMustree
  	```
 
 2. **Recommended Step:** (Conda users, Conda version: 4.12.0) Create your environment and activate it:
 	```
-	conda create -n scCAD_env python=3.7
- 	source activate scCAD_env
+	conda create -n scMustree_env python=3.7
+ 	source activate scMustree_env
  	```
  	-Use `conda activate` instead of `source activate`, if required.
    
