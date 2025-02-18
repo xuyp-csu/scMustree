@@ -1,6 +1,6 @@
 # scMustree
 ## Introduction
-Cluster decomposition-based Anomaly Detection method (scCAD) is used to effectively identify rare cell types in scRNA-seq data.
+Inference and visualization of multi-scale cell tree for decoding functional diversity.
 
 ![alt text](https://github.com/xuyp-csu/scMustree/blob/main/scMustree_overview.png)
 
@@ -15,16 +15,16 @@ This package is supported for *Linux* and *macOS*. The package has been tested o
 
 ### Prerequisites
 
-	Python --- 3.7.13
-	h5py --- 3.7.0
-	networkx --- 2.6.3
-	numpy --- 1.21.5
-	pandas --- 1.3.5
+	Python --- 3.9.19
+	h5py --- 3.11.0
+	networkx --- 3.2.1
+	numpy --- 1.26.4
+	pandas --- 2.2.2
 	python-louvain --- 0.16
-	Scanpy --- 1.9.1
-	scikit-learn --- 1.0.2
-	scipy --- 1.7.3
-	tqdm --- 4.64.0
+	Scanpy --- 1.10.2
+	scikit-learn --- 1.5.1
+	scipy --- 1.13.1
+	tqdm --- 4.66.5
 
 ### Installation
 1. **Necessary Step:** Download from Github:
