@@ -5,15 +5,15 @@ Inference and visualization of multi-scale cell tree for decoding functional div
 ![alt text](https://github.com/xuyp-csu/scMustree/blob/main/scMustree_overview.png)
 
 ## Getting Started
-## Hardware requirements
-`scMustree` package requires only a standard computer with enough RAM to support the in-memory operations.
+### Hardware requirements
+`scMustree` package requires only a standard computer with enough RAM to support the in-memory operations. For large datasets, bigger RAM is recommended.
 
-### OS Requirements
-This package is supported for *Linux* and *macOS*. The package has been tested on the following systems:
-+ Linux: Ubuntu 16.04.7
-+ macOS: Monterey 12.6.3
+### System Requirements
+#### OS Support
+- **Linux**: (tested on Ubuntu 16.04.7)
+- **macOS**: (tested on Monterey 12.6.3)
 
-### Prerequisites
+#### Prerequisites
 
 	Python --- 3.9.19
 	h5py --- 3.11.0
@@ -28,16 +28,19 @@ This package is supported for *Linux* and *macOS*. The package has been tested o
  	pydot --- 3.0.1
  	faiss-cpu --- 1.8.0
 	pygraphviz --- 1.9
-
+ 
+```markdown
+Note: Dependencies are pinned to specific versions to ensure reproducibility. If you encounter compatibility issues, try relaxing version constraints.
+```
 ### Installation
 1. **Necessary Step:** Download from Github:
-   	```
+   	```bash
 	git clone https://github.com/xuyp-csu/scMustree.git
 	cd scMustree
  	```
 
-2. **Necessary Step:** (Conda users, Conda version: 4.12.0) Create your environment and activate it:
-	```
+2. **Necessary Step:** Create and activate the environment:
+	```bash
 	conda create -n scMustree_env python=3.9.19
  	source activate scMustree_env
  	```
@@ -47,7 +50,7 @@ This package is supported for *Linux* and *macOS*. The package has been tested o
 
 3. **Necessary Step:** Install dependencies with pip and conda:
 
-	```
+	```bash
 	pip install -r requirements.txt
  	conda install -c pytorch/label/nightly faiss-cpu=1.8.0
 	conda install conda-forge::pygraphviz=1.9
