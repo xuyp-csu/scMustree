@@ -25,6 +25,9 @@ This package is supported for *Linux* and *macOS*. The package has been tested o
 	scikit-learn --- 1.5.1
 	scipy --- 1.13.1
 	tqdm --- 4.66.5
+ 	pydot --- 3.0.1
+ 	faiss-cpu --- 1.8.0
+	pygraphviz --- 1.9
 
 ### Installation
 1. **Necessary Step:** Download from Github:
@@ -46,5 +49,7 @@ This package is supported for *Linux* and *macOS*. The package has been tested o
 
 	```
 	pip install -r requirements.txt
+ 	conda install -c pytorch/label/nightly faiss-cpu=1.8.0
+	conda install conda-forge::pygraphviz=1.9
 	```
- 	-Installation typically requires around 3 to 5 minutes, depending on network conditions.
+ 	-Installation typically requires around a few minutes, depending on network conditions.
