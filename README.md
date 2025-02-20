@@ -36,7 +36,7 @@ This package is supported for *Linux* and *macOS*. The package has been tested o
 	cd scMustree
  	```
 
-2. **Recommended Step:** (Conda users, Conda version: 4.12.0) Create your environment and activate it:
+2. **Necessary Step:** (Conda users, Conda version: 4.12.0) Create your environment and activate it:
 	```
 	conda create -n scMustree_env python=3.9.19
  	source activate scMustree_env
@@ -45,7 +45,7 @@ This package is supported for *Linux* and *macOS*. The package has been tested o
    
 	-Building typically completes in about 30 seconds.
 
-3. **Necessary Step:** Install dependencies with pip:
+3. **Necessary Step:** Install dependencies with pip and conda:
 
 	```
 	pip install -r requirements.txt
