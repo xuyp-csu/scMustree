@@ -56,3 +56,26 @@ Note: Dependencies are pinned to specific versions to ensure reproducibility. If
 	conda install conda-forge::pygraphviz=1.9
 	```
  	-Installation typically requires around a few minutes, depending on network conditions.
+
+
+## Usage
+### Arguments:
+
+
+
+# License
+This project is covered under the **GPL-3.0 License**.
+
+## Contact
+If any questions, please do not hesitate to contact us at: 
+
+Yunpei Xu, xu_yunpei@csu.edu.cn
+
+Jianxin Wang, jxwang@csu.edu.cn
+
+## How to cite?
+If you use this tool, please cite the following work.
+
+Xu, Y., et al. Inference and visualization of multi-scale cell tree for decoding functional diversity with scMustree. 2025.
+
+   
