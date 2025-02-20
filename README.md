@@ -61,6 +61,16 @@ Note: Dependencies are pinned to specific versions to ensure reproducibility. If
 ## Usage
 ### 1. 
 
+Here, ```data``` should be a (possibly sparse) matrix where the rows are genes and the columns are cells. Optionally, the following parameters can be adjusted: 
+
+* ```batch```, which is `NULL` by default, can be a character vector of known batch labels.
+* ```alpha```, which controls the family-wise error rate (default 0.05). If the goal is discovery, consider setting a more lenient alpha, such as 0.25.
+* ```num_features```, which controls the number of genes used (default 2500). 
+* ```num_PCs```, which controls the number of principal components (default 30).
+* ```parallel```, which is `TRUE` by default, can be set to `FALSE` to disable parallelization.
+* ```cores```, which controls the number of cores used if `parallel = T` (default 2).
+
+
 
 
 # License
