@@ -59,7 +59,7 @@ Note: Dependencies are pinned to specific versions to ensure reproducibility. If
 
 
 ## Usage
-Please refer to the [vignette](https://htmlpreview.github.io/?https://github.com/pengminshi/MRtree/blob/master/vignettes/MRtree-tutorial.html) for an example of how to use this tool with Scanpy and networkx on a demo dataset([GSE81861](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81861): 7 cell lines).
+Please refer to the [vignette](https://htmlpreview.github.io/?https://github.com/pengminshi/MRtree/blob/master/vignettes/MRtree-tutorial.html) for an example of how to use this tool with Scanpy and networkx on a demo dataset ([GSE81861](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81861): 7 cell lines).
 
 ## License
 This project is covered under the **GPL-3.0 License**.
