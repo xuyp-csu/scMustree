@@ -71,7 +71,7 @@ If any questions, please do not hesitate to contact us at:
 
 Yunpei Xu, xu_yunpei@csu.edu.cn
 
-Jianxin Wang, jxwang@csu.edu.cn
+Jianxin Wang, jxwang@mail.csu.edu.cn
 
 ## How to cite?
 If you use this tool, please cite the following work.
