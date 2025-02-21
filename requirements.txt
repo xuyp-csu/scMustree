@@ -1,0 +1,7 @@
+Scanpy==1.10.2
+scipy==1.13.1
+scikit-learn==1.5.1
+python-louvain==0.16
+networkx==3.2.1
+tqdm==4.66.5
+pydot==3.0.1
