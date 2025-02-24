@@ -52,7 +52,8 @@ Note: Dependencies are pinned to specific versions to ensure reproducibility. If
 
 	```bash
 	pip install -r requirements.txt
- 	conda install -c pytorch/label/nightly faiss-cpu=1.8.0
+ 	conda install -c pytorch/label/nightly faiss-cpu=1.8.0 'or'
+ 	conda install faiss-cpu=1.8.0 -c conda-forge
 	conda install conda-forge::pygraphviz=1.9
 	```
  	-Installation typically requires around a few minutes, depending on network conditions.
